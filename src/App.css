@@ -7,11 +7,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +24,120 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: #d1c3f9;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  border-bottom: 1px solid #d1c3f9;
+  padding: 30px 0;
+}
+
+a {
+  color: #d1c3f9;
+}
+
+.Weather {
+  background: #f9f7fe;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 20px 40px rgb(136, 93, 241);
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.search-city {
+  background-color: #e7e0f7;
+  border-radius: 6px;
+  width: 80%;
+  padding: 20px;
+}
+
+.search-button {
+  background: #dfd6f7;
+  padding: 20px;
+  border-radius: 6px;
+  color: black;
+}
+
+.current-city {
+  margin: 0;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.weather-details {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.weather-details strong {
+  color: rgb(246, 82, 130);
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature-container {
+  display: flex;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 70px;
+}
+
+.current-temperature {
+  font-size: 60px;
+  margin-left: 10px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.temp-unit {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-week {
+  font-size: 14px;
+  opacity: 0.6;
+  display: inline;
+}
+
+.date-temp {
+  font-size: 12px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.temp-min {
+  opacity: 0.6;
+}
+
+main {
+  padding: 30px 0;
+}
+
+footer {
+  border-top: 1px solid #d1c3f9;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
 }
