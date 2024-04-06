@@ -23,7 +23,7 @@ export default function App() {
           href="https://app.netlify.com/sites/fluffy-blancmange-c8e322/overview"
           target="_blank"
         >
-        ,   Netlify
+        ,  Netlify
         </a>
       </footer>
     </div>
