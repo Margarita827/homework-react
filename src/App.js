@@ -7,15 +7,18 @@ export default function App() {
     <div className="App">
       <Weather />
       <footer>
-        Coded by
+        Coded by 
         <a href="https://github.com/Margarita827" target="_blank">
           Margarita Ibáñez
         </a>
-        , open sourced on
-        <a href="https://github.com/Margarita827/Plus-Week-8" target="_blank">
+        , open sourced on 
+        <a
+          href="https://github.com/Margarita827/homework-react"
+          target="_blank"
+        >
           GitHub
         </a>
-        and website hosted on
+        and website hosted on 
         <a
           href="https://app.netlify.com/sites/fluffy-blancmange-c8e322/overview"
           target="_blank"
