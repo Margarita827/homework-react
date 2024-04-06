@@ -18,12 +18,12 @@ export default function App() {
         >
           GitHub
         </a>
-        and website hosted on 
+        , and website hosted on 
         <a
           href="https://app.netlify.com/sites/fluffy-blancmange-c8e322/overview"
           target="_blank"
         >
-          Netlify
+        ,   Netlify
         </a>
       </footer>
     </div>
